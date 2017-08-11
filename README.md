@@ -2,21 +2,29 @@
 
 command line todo list
 
+```
+gem install toodoo
+```
+
 usage:
 
-`td list` - displays your tasks
+```bash
+td add 'to do something'    # add a task
+td + 'to do something'      # same
+td done 'to do something'   # finish a task
+td ! 'to do something'      # same
+td remove 'to do something' # remove a task
+td - 'to do something'      # same
+td list                     # list queued tasks
+td .                        # same
+td                          # same
+td history                  # list all done tasks
+td clear                    # clear all lists
 
-`td add 'to do something'` - adds a new task
+```
 
-`td done 2` - finish task by index
-
-`td remove 2` - removes task by index
-
-`td history` - displays done tasks
-
-
-features:
-- sort tasks
-- add priority
-- add tags
-- create multiple lists
+to implement:
+- zsh autocompletion
+- colors
+- tagging
+- settings(database file)

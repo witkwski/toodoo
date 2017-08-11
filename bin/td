@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 require 'toodoo'
-TooDoo.run
+TooDoo::Application.new.run!
