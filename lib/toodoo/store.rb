@@ -10,7 +10,7 @@ module TooDoo
 
     attr_reader :path, :adapter
 
-    def initialize(db_file_path = DATABASE_PATH, adapter = GDBM)
+    def initialize(db_file_path = DATABASE_PATH, adapter = DBM)
       @path = db_file_path
       @adapter = adapter
     end

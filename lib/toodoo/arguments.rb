@@ -3,6 +3,7 @@
 module TooDoo
   # Arguments is intended to handle passed args
   # and transform it into command name and its arguments
+  # I dont want to use OptionParser!
   class Arguments
     attr_reader :command, :argument
 
