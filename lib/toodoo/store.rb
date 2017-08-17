@@ -4,9 +4,8 @@ module TooDoo
   # Store is intended to build connection with db
   # and provide api for the application
   # it saves database file into user's home directory
-  # /home/user/.toodoo.db by default
   class Store
-    DATABASE_PATH = File.expand_path('~/.toodoo.db')
+    DATABASE_PATH = File.expand_path('~/.toodoo')
 
     attr_reader :path, :adapter
 

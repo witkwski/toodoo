@@ -27,9 +27,9 @@ module TooDoo
           usage:
 
           help              - list available commands
-          add <body>      - add a new task
-          done <body>     - mark task as done
-          remove <body>   - remove a task
+          add <body>        - add a new task
+          done <body>       - mark task as done
+          remove <body>     - remove a task
           list              - list tasks
           history           - list done tasks
           clear             - clear task lists
