@@ -45,13 +45,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pry
-  rspec
-  rubocop
+  pry (>= 0.10.4)
+  rspec (>= 3.6.0)
+  rubocop (>= 0.39.0)
   toodoo!
 
 RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

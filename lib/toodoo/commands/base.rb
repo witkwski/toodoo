@@ -7,7 +7,7 @@ module TooDoo
     class Base
       attr_reader :args, :store
 
-      def initialize(args, store = Store)
+      def initialize(args, store = Storage)
         @args = args
         @store = store.new
       end

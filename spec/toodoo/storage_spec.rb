@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe TooDoo::Store do
+describe TooDoo::Storage do
   temp_path = 'tmp'
   db_file_name = 'test.db'
   full_db_path = "#{temp_path}/#{db_file_name}"
@@ -12,7 +12,7 @@ describe TooDoo::Store do
   end
 
   after(:each) do
-    GDBM.open(full_db_path, &:clear)
+    DBM.open(full_db_path, &:clear)
   end
 
   after(:all) do

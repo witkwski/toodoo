@@ -17,7 +17,7 @@ module TooDoo
 
   require 'toodoo/commands'
   require 'toodoo/task'
-  require 'toodoo/store'
+  require 'toodoo/storage'
   require 'toodoo/arguments'
   require 'toodoo/application'
 end

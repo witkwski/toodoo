@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 module TooDoo
-  # Store is intended to build connection with db
+  # Storage is intended to build connection with the db
   # and provide api for the application
-  # it saves database file into user's home directory
-  class Store
+  # it saves the database file into user's home directory
+  class Storage
     DATABASE_PATH = File.expand_path('~/.toodoo')
 
     attr_reader :path, :adapter
